@@ -1,0 +1,6 @@
+.listMenu {
+  background-color: rgb(3, 107, 141);
+  display: flex;
+  width: 15rem;
+  height: calc(200vh - 5rem);
+}

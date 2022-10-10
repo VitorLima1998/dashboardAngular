@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 2rem;
+  color: var(--txt-white);
+}
+
+.menu li {
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu li h5 {
+  color: var(--txt-principal);
+}
+
+.menu .header .logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--txt-purple);
+}

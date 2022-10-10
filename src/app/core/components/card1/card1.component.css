@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.card .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--txt-principal);
+  padding: 0.5rem;
+}
+
+.card .text span {
+  font-size: 0.8rem;
+}
+
+.card .text h2 {
+  color: var(--txt-purple);
+}
+
+.card .text button {
+  background-color: var(--btn-purple);
+  color: var(--txt-white);
+  width: 7rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}

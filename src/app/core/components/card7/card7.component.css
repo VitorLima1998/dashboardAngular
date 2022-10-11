@@ -16,6 +16,7 @@
   padding: 1rem;
 }
 
+/* ------------------------------------------------- */
 /* Column1, Row1 Table */
 .table table tr .dixons {
   display: flex;
@@ -39,6 +40,8 @@
 }
 
 .table table tr td .dixonstech .icon {
+  width: 3rem;
+  height: 3rem;
   background: var(--bg-purple);
   color: var(--icon-purple);
   border-radius: 50%;
@@ -48,7 +51,7 @@
 }
 /* Finish Colum2, Row1 table */
 
-/* Colum5, Row1 table */
+/* Column5, Row1 table */
 .table table td .dixonsales {
   display: flex;
   gap: 1rem;
@@ -56,4 +59,270 @@
 
 .table table td .dixonsales .icon {
   color: var(--icon-red);
+}
+/* Finish Column5, Row1 table */
+/* ------------------------------------------------- */
+/* Column1, Row2 Table */
+.table table tr .motels {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .motels .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row2 */
+
+/* Column2, Row2 table */
+.table table tr td .motgrocery {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .motgrocery .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--icon-green);
+  background: var(--bg-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Colum5, Row2 table */
+.table table td .motsales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .motsales .icon {
+  color: var(--icon-green);
+}
+/* ------------------------------------------------- */
+/* Column1, Row2 Table */
+.table table tr .zipcar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .zipcar .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row2 */
+
+/* Column2, Row2 table */
+.table table tr td .zipfashion {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .zipfashion .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--icon-orange);
+  background: var(--bg-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Colum5, Row2 table */
+.table table td .zipsales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .zipsales .icon {
+  color: var(--icon-green);
+}
+/* ------------------------------------------------- */
+/* Column1, Row1 Table */
+.table table tr .owning {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .owning .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row1 */
+
+/* Column2, Row1 table */
+.table table tr td .owningtech {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .owningtech .icon {
+  width: 3rem;
+  height: 3rem;
+  background: var(--bg-purple);
+  color: var(--icon-purple);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Column5, Row1 table */
+.table table td .owningsales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .owningsales .icon {
+  color: var(--icon-green);
+}
+/* Finish Column5, Row1 table */
+/* ------------------------------------------------- */
+/* Column1, Row2 Table */
+.table table tr .cafes {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .cafes .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row2 */
+
+/* Column2, Row2 table */
+.table table tr td .cafesgrocery {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .cafesgrocery .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--icon-green);
+  background: var(--bg-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Colum5, Row2 table */
+.table table td .cafesales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .cafesales .icon {
+  color: var(--icon-red);
+}
+/* ------------------------------------------------- */
+/* Column1, Row2 Table */
+.table table tr .kmart {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .kmart .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row2 */
+
+/* Column2, Row2 table */
+.table table tr td .kmartfashion {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .kmartfashion .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--icon-orange);
+  background: var(--bg-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Colum5, Row2 table */
+.table table td .kmartsales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .kmartsales .icon {
+  color: var(--icon-green);
+}
+/* ------------------------------------------------- */
+/* Column1, Row2 Table */
+.table table tr .payers {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .payers .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row2 */
+
+/* Column2, Row2 table */
+.table table tr td .payfashion {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .payfashion .icon {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  color: var(--icon-orange);
+  background: var(--bg-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Colum5, Row2 table */
+.table table td .paysales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .paysales .icon {
+  color: var(--icon-green);
 }

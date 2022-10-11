@@ -4,7 +4,7 @@
   flex-direction: column;
   padding: 1rem;
   gap: 2rem;
-  color: var(--txt-principal);
+  color: var(--txt-white);
 }
 
 /* CSS of header */
@@ -12,37 +12,45 @@
   display: flex;
   justify-content: space-between;
 }
+/* Finish CSS header */
 
 /* Position of the icons */
 .card2 .icon {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 5rem;
 }
 /* Finish position of the icons */
 
-/* First icon */
+/* First Icon */
 .card2 .icon .sales {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  /* border: solid 1px white; */
 }
 
-.card2 .icon .tradeup {
-  height: 3rem;
-  width: 3rem;
+.card2 .icon .sales .info {
+  font-size: 1.2rem;
+}
+
+.card2 .icon .trendup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
   background: var(--bg-purple);
   color: var(--icon-purple);
 }
 
-.card2 .icon .tradeup mat-icon {
+.card2 .icon .trendup mat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
 }
 /* Finish first icon */
@@ -54,20 +62,27 @@
   gap: 0.5rem;
 }
 
+.card2 .icon .customers .info {
+  font-size: 1.2rem;
+}
+
 .card2 .icon .user {
-  height: 3rem;
-  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
   background: var(--bg-blue);
   color: var(--icon-blue);
 }
 
 .card2 .icon .user mat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
 }
 /* Finish second icon */
@@ -79,23 +94,30 @@
   gap: 0.5rem;
 }
 
-.card2 .icon .car {
-  height: 3rem;
-  width: 3rem;
+.card2 .icon .products .info {
+  font-size: 1.2rem;
+}
+
+.card2 .icon .cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
   background: var(--bg-red);
   color: var(--icon-red);
 }
 
-.card2 .icon .car mat-icon {
+.card2 .icon .cart mat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
 }
-/* finish third icon */
+/* Finish third icon */
 
 /* fourth icon */
 .card2 .icon .revenue {
@@ -104,20 +126,26 @@
   gap: 0.5rem;
 }
 
+.card2 .icon .revenue .info {
+  font-size: 1.2rem;
+}
+
 .card2 .icon .dolar {
-  height: 3rem;
-  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
   border-radius: 50%;
   background: var(--bg-green);
   color: var(--icon-green);
 }
 
 .card2 .icon .dolar mat-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 2rem;
 }
-/* Finish fourth icon */

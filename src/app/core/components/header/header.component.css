@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1rem;
+  padding: 1rem;
+  color: var(--txt-principal);
+}
+
+.header .contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header .profile {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.header .profile .country {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.header .profile .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header .profile .icon {
+  display: flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  background: wheat;
+}

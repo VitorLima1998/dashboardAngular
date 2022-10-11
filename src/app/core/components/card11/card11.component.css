@@ -1,0 +1,174 @@
+.transactions {
+  color: var(--txt-white);
+  padding: 1rem;
+}
+/* Layout Header */
+.transactions .header {
+  display: flex;
+  justify-content: space-between;
+}
+/* Finish Layout header */
+
+/* Line 1 (wallet) */
+.transactions .itens .wallet {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.transactions .itens .wallet .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: var(--bg-purple);
+  color: var(--icon-purple);
+}
+
+.transactions .itens .wallet .txt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.transactions .itens .wallet .txt h6 {
+  font-weight: 100;
+}
+
+.transactions .itens .wallet .value {
+  color: var(--txt-red);
+}
+/* Finish Line 1 (wallet) */
+
+/* Line 2 (bank transfer) */
+.transactions .itens .bank {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.transactions .itens .bank .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: var(--bg-green);
+  color: var(--icon-green);
+}
+
+.transactions .itens .bank .txt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.transactions .itens .bank .txt h6 {
+  font-weight: 100;
+}
+
+.transactions .itens .bank .value {
+  color: var(--txt-green);
+}
+/*Finish Line 2 (bank transfer) */
+
+/* Line 3 (paypal) */
+.transactions .itens .paypal {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.transactions .itens .paypal .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: var(--bg-red);
+  color: var(--icon-red);
+}
+
+.transactions .itens .paypal .txt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.transactions .itens .paypal .txt h6 {
+  font-weight: 100;
+}
+
+.transactions .itens .paypal .value {
+  color: var(--txt-green);
+}
+/*Finish Line 3 (paypal) */
+
+/* Line 4 (mastercard) */
+.transactions .itens .mastercard {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.transactions .itens .mastercard .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: var(--bg-orange);
+  color: var(--icon-orange);
+}
+
+.transactions .itens .mastercard .txt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.transactions .itens .mastercard .txt h6 {
+  font-weight: 100;
+}
+
+.transactions .itens .mastercard .value {
+  color: var(--txt-red);
+}
+/*Finish Line 4 (mastercard) */
+
+/* Line 5 (transfer) */
+.transactions .itens .transfer {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.transactions .itens .transfer .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background: var(--bg-blue);
+  color: var(--icon-blue);
+}
+
+.transactions .itens .transfer .txt {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.transactions .itens .transfer .txt h6 {
+  font-weight: 100;
+}
+
+.transactions .itens .transfer .value {
+  color: var(--txt-green);
+}

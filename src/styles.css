@@ -3,4 +3,43 @@
 
 * {
   font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  list-style: none;
 }
+
+html {
+  background: var(--bg-principal);
+}
+
+:root {
+  /* Text colors */
+  --txt-principal: #b5b7bd;
+  --txt-purple: #7367f0;
+  --txt-white: #ffffff;
+  --txt-red: #ea5355;
+  --txt-green: #29c770;
+  /* Background colors */
+  --bg-card: #293046;
+  --bg-principal: #151d32;
+  --bg-tablehead: #343c55;
+  /* Button colors */
+  --btn-purple: #5e51ee;
+  /* Icons color */
+  --icon-purple: #7367f0;
+  --icon-blue: #04cfe7;
+  --icon-red: #ea5355;
+  --icon-green: #29c770;
+  --icon-orange: #d58943;
+  /* Background icons */
+  --bg-purple: #32375b;
+  --bg-blue: #2a445a;
+  --bg-red: #413548;
+  --bg-green: #2c434c;
+  --bg-orange: #7b5944;
+}
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

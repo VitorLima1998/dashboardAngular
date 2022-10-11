@@ -1,15 +1,13 @@
 .container {
   display: flex;
-  width: 100%;
-  gap: 1rem;
-  padding: 1rem;
-  background: var(--bg-princpal);
+  width: 90%;
+  gap: 5rem;
 }
 
 .container .menu {
   background: var(--bg-card);
   border-radius: 1rem;
-  width: 15rem;
+  width: 20rem;
   height: 100%;
 }
 
@@ -18,29 +16,31 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  gap: 1rem;
-}
-
-.container .content .header {
-  background-color: var(--bg-card);
-  width: 100%;
-  height: 3rem;
-  border-radius: 1rem;
-  /* position: fixed; */
+  padding: 2rem;
 }
 
 .container .content .dash {
   display: grid;
   grid-template-areas:
+    "boxheader boxheader boxheader boxheader boxheader boxheader"
     "box1 box1 box2 box2 box2 box2"
     "box3 box4 box5 box5 box5 box5"
     "box6 box6 box5 box5 box5 box5"
     "box7 box7 box7 box7 box8 box8"
     "box7 box7 box7 box7 box8 box8"
     "box9 box9 box10 box10 box11 box11";
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: 3rem repeat(5, 1fr);
   grid-template-columns: repeat(6, 1fr);
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.container .content .dash .boxheader {
+  position: fixed;
+  width: calc(90% - 23rem);
+}
+
+.boxheader {
+  grid-area: boxheader;
 }
 
 .box1 {

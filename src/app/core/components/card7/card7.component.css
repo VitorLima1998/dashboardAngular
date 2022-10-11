@@ -1,0 +1,59 @@
+.table {
+  display: flex;
+  color: var(--txt-white);
+}
+
+.table table {
+  width: 100%;
+}
+
+.table table th {
+  background: var(--bg-tablehead);
+  padding: 0.3rem;
+}
+
+.table table td {
+  padding: 1rem;
+}
+
+/* Column1, Row1 Table */
+.table table tr .dixons {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .dixons .icon {
+  background: var(--bg-principal);
+  border-radius: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+/* Finish Column1, Row1 */
+
+/* Column2, Row1 table */
+.table table tr td .dixonstech {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.table table tr td .dixonstech .icon {
+  background: var(--bg-purple);
+  color: var(--icon-purple);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Finish Colum2, Row1 table */
+
+/* Colum5, Row1 table */
+.table table td .dixonsales {
+  display: flex;
+  gap: 1rem;
+}
+
+.table table td .dixonsales .icon {
+  color: var(--icon-red);
+}

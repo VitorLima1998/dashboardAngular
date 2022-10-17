@@ -1,27 +1,17 @@
 .card5 {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
   padding: 1rem;
   color: var(--txt-white);
 }
 
 .card5 .chart {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  width: 70%;
 }
 
 .card5 .chart .header {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  width: 100%;
   justify-content: space-between;
-}
-
-.card5 .chart .header .title {
-  display: flex;
 }
 
 .card5 .chart .header .title span {
@@ -54,7 +44,7 @@
   align-items: center;
   padding: 1rem;
   gap: 1rem;
-  width: 30rem;
+  width: 30%;
 }
 
 .card5 button#transparent {

@@ -1,0 +1,77 @@
+.card5 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  color: var(--txt-white);
+}
+
+.card5 .chart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card5 .chart .header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card5 .chart .header .title {
+  display: flex;
+}
+
+.card5 .chart .header .title span {
+  font-size: 1.3rem;
+}
+
+.card5 .chart .header .legend {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card5 .chart .header .legend .purple {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--icon-purple);
+}
+
+.card5 .chart .header .legend .orange {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--icon-orange);
+}
+
+.card5 .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  width: 30rem;
+}
+
+.card5 button#transparent {
+  padding: 0.2rem 1rem;
+  background: transparent;
+  border-radius: 0.5rem;
+  border: solid 1px var(--icon-purple);
+  color: var(--txt-purple);
+}
+
+.card5 .info span {
+  font-size: 1.5rem;
+}
+
+.card5 .info button {
+  background: var(--icon-purple);
+  color: var(--txt-white);
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}

@@ -1,4 +1,7 @@
 .transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   color: var(--txt-white);
   padding: 1rem;
 }
@@ -7,12 +10,19 @@
   display: flex;
   justify-content: space-between;
 }
-/* Finish Layout header */
 
+.transactions .header span {
+  font-size: 1.3rem;
+}
+/* Finish Layout header */
+.transactions .itens {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 /* Line 1 (wallet) */
 .transactions .itens .wallet {
   display: flex;
-  justify-content: space-around;
   gap: 1rem;
 }
 
@@ -29,12 +39,9 @@
 
 .transactions .itens .wallet .txt {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
-}
-
-.transactions .itens .wallet .txt h6 {
-  font-weight: 100;
 }
 
 .transactions .itens .wallet .value {
@@ -63,11 +70,8 @@
 .transactions .itens .bank .txt {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-}
-
-.transactions .itens .bank .txt h6 {
-  font-weight: 100;
 }
 
 .transactions .itens .bank .value {
@@ -96,11 +100,8 @@
 .transactions .itens .paypal .txt {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-}
-
-.transactions .itens .paypal .txt h6 {
-  font-weight: 100;
 }
 
 .transactions .itens .paypal .value {
@@ -129,11 +130,8 @@
 .transactions .itens .mastercard .txt {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-}
-
-.transactions .itens .mastercard .txt h6 {
-  font-weight: 100;
 }
 
 .transactions .itens .mastercard .value {
@@ -162,11 +160,8 @@
 .transactions .itens .transfer .txt {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-}
-
-.transactions .itens .transfer .txt h6 {
-  font-weight: 100;
 }
 
 .transactions .itens .transfer .value {

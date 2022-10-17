@@ -1,0 +1,18 @@
+.card6 {
+  display: flex;
+  padding: 1rem;
+}
+
+.card6 .info {
+  display: flex;
+  flex-direction: column;
+  color: var(--txt-white);
+}
+
+.card6 .info span {
+  font-size: 1.3rem;
+}
+
+.card6 .info h5 {
+  color: var(--txt-principal);
+}

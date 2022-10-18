@@ -23,6 +23,7 @@ export class Card6Component implements OnInit {
         },
       },
       labels: ['53%'],
+      colors: ['#28c76f'],
     };
 
     var chart = new ApexCharts(document.querySelector('#donutchart'), options);

@@ -11,7 +11,7 @@ export class Card10Component implements OnInit {
     var options = {
       series: [83],
       chart: {
-        height: 250,
+        height: 270,
         type: 'radialBar',
       },
       plotOptions: {
@@ -22,6 +22,7 @@ export class Card10Component implements OnInit {
         },
       },
       labels: ['83%'],
+      colors: ['#50e3a5'],
     };
 
     var chart = new ApexCharts(document.querySelector('#chartdonut'), options);

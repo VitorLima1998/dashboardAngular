@@ -14,7 +14,7 @@ export class Card3Component implements OnInit {
       series: [
         {
           name: 'Net Profit',
-          data: [44, 55, 57, 56, 61],
+          data: [45, 90, 70, 60, 70],
         },
       ],
       chart: {
@@ -40,6 +40,7 @@ export class Card3Component implements OnInit {
 
       fill: {
         opacity: 1,
+        colors: ['#fdac60'],
       },
       tooltip: {},
     };

@@ -21,6 +21,7 @@ export class Card4Component implements OnInit {
         height: 130,
         width: 170,
         type: 'line',
+
         zoom: {
           enabled: false,
         },
@@ -30,6 +31,7 @@ export class Card4Component implements OnInit {
       },
       stroke: {
         curve: 'straight',
+        colors: ['#03c6df'],
       },
 
       grid: {

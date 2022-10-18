@@ -19,12 +19,10 @@
 .card10 #chartdonut {
   display: flex;
   align-items: center;
-  padding: 1rem;
 }
 
 .card10 .info {
   display: flex;
-  padding: 1rem 0;
   justify-content: center;
   width: 100%;
 }

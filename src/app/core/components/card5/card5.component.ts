@@ -13,18 +13,20 @@ export class Card5Component implements OnInit {
     var options = {
       series: [
         {
-          name: 'PRODUCT A',
-          data: [44, 55, 41, 67, 22, 43],
+          name: 'Earning',
+          data: [44, 55, 41, 67, 22, 43, 31],
         },
         {
-          name: 'PRODUCT B',
-          data: [13, 23, 20, 8, 13, 27],
+          name: 'Expense',
+          data: [13, 23, 20, 8, 13, 27, 50],
         },
       ],
+
       chart: {
         type: 'bar',
-        height: 350,
+        height: 400,
         stacked: true,
+
         toolbar: {
           show: true,
         },
@@ -32,25 +34,14 @@ export class Card5Component implements OnInit {
           enabled: true,
         },
       },
-      responsive: [
-        {
-          breakpoint: 480,
-          options: {
-            legend: {
-              position: 'bottom',
-              offsetX: -10,
-              offsetY: 0,
-            },
-          },
-        },
-      ],
+
       plotOptions: {
         bar: {
           horizontal: false,
           borderRadius: 10,
           dataLabels: {
             total: {
-              enabled: true,
+              enabled: false,
               style: {
                 fontSize: '13px',
                 fontWeight: 900,
@@ -60,22 +51,13 @@ export class Card5Component implements OnInit {
         },
       },
       xaxis: {
-        type: 'datetime',
-        categories: [
-          '01/01/2011 GMT',
-          '01/02/2011 GMT',
-          '01/03/2011 GMT',
-          '01/04/2011 GMT',
-          '01/05/2011 GMT',
-          '01/06/2011 GMT',
-        ],
+        // type: 'datetime',
+        categories: ['Jan', 'Fev', 'Mar', 'Apr', 'May', 'Jun', 'Aug'],
       },
-      // legend: {
-      //   position: 'right',
-      //   offsetY: 40,
-      // },
+
       fill: {
         opacity: 1,
+        colors: ['#e28f43', '#685fd8'],
       },
     };
 

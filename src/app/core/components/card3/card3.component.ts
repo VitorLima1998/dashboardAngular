@@ -9,5 +9,42 @@ import { Chart } from 'chart.js';
 export class Card3Component implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    var options = {
+      series: [
+        {
+          name: 'Net Profit',
+          data: [44, 55, 57, 56, 61],
+        },
+      ],
+      chart: {
+        type: 'bar',
+        height: 130,
+        width: 160,
+      },
+      plotOptions: {
+        bar: {
+          horizontal: false,
+          columnWidth: '55%',
+          endingShape: 'rounded',
+        },
+      },
+      dataLabels: {
+        enabled: false,
+      },
+      stroke: {
+        show: true,
+        width: 2,
+        colors: ['transparent'],
+      },
+
+      fill: {
+        opacity: 1,
+      },
+      tooltip: {},
+    };
+
+    var chart = new ApexCharts(document.querySelector('#columnchart'), options);
+    chart.render();
+  }
 }

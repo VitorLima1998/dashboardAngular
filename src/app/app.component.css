@@ -29,7 +29,7 @@
     "box7 box7 box7 box7 box8 box8"
     "box7 box7 box7 box7 box8 box8"
     "box9 box9 box10 box10 box11 box11";
-  grid-template-rows: 3rem repeat(5, 1fr);
+  grid-template-rows: 3rem auto;
   grid-template-columns: repeat(6, 1fr);
   gap: 1.5rem;
   /* height: 200vh; */

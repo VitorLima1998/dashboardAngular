@@ -8,12 +8,15 @@
 .container .menu {
   background: var(--bg-card);
   width: 20rem;
-  /* height: 100%; */
+  overflow: auto;
+  height: 100vh;
 }
 
 .container .content {
   width: 100%;
   padding: 2rem 5rem;
+  height: 100vh;
+  overflow: auto;
 }
 
 .container .content .dash .boxheader {

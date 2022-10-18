@@ -27,3 +27,11 @@
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
+
+.card .image {
+  display: flex;
+}
+.card .image img {
+  width: 8rem;
+  height: 8rem;
+}

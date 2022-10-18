@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
+import * as ApexCharts from 'apexcharts';
 
 @Component({
   selector: 'app-card4',
   templateUrl: './card4.component.html',
-  styleUrls: ['./card4.component.css']
+  styleUrls: ['./card4.component.css'],
 })
 export class Card4Component implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

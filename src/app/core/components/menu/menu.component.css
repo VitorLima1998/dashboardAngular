@@ -18,9 +18,25 @@
   color: var(--txt-principal);
 }
 
+.menu .header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .menu .header .logo {
   display: flex;
   align-items: center;
   gap: 1rem;
   color: var(--txt-purple);
+}
+
+.menu .header .logo img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.menu .header .logo span {
+  font-size: 2rem;
+  font-weight: 700;
 }

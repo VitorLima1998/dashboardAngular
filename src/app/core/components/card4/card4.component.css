@@ -9,3 +9,8 @@
   flex-direction: column;
   color: var(--txt-white);
 }
+
+.card4 div#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}

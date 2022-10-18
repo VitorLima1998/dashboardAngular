@@ -6,7 +6,7 @@
 .container .menu {
   background: var(--bg-card);
   width: 20rem;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .container .content {

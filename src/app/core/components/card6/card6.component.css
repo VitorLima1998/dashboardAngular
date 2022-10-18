@@ -16,3 +16,8 @@
 .card6 .info h5 {
   color: var(--txt-principal);
 }
+
+.card6 div#donutchart {
+  width: 10rem;
+  height: 5rem;
+}

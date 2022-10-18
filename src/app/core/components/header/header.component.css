@@ -32,10 +32,9 @@
   justify-content: center;
 }
 
-.header .profile .icon {
+.header .profile .icon img {
   display: flex;
   height: 2.5rem;
   width: 2.5rem;
   border-radius: 50%;
-  background: wheat;
 }

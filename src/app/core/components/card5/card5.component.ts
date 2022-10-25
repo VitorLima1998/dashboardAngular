@@ -28,7 +28,7 @@ export class Card5Component implements OnInit {
         stacked: true,
 
         toolbar: {
-          show: true,
+          show: false,
         },
         zoom: {
           enabled: true,
@@ -39,19 +39,9 @@ export class Card5Component implements OnInit {
         bar: {
           horizontal: false,
           borderRadius: 10,
-          dataLabels: {
-            total: {
-              enabled: false,
-              style: {
-                fontSize: '13px',
-                fontWeight: 900,
-              },
-            },
-          },
         },
       },
       xaxis: {
-        // type: 'datetime',
         categories: ['Jan', 'Fev', 'Mar', 'Apr', 'May', 'Jun', 'Aug'],
       },
 
